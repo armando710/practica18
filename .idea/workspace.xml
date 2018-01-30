@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b370c31-e8d8-4082-9f16-b15efceec69c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/enlaces/EO.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/enlaces/EU.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/enlaces/MO.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/enlaces/japon.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/estilos/bordes.css" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
@@ -25,8 +21,28 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="133" column="7" lean-forward="false" selection-start-line="133" selection-start-column="7" selection-end-line="133" selection-end-column="7" />
+            <state relative-caret-position="136">
+              <caret line="8" column="61" lean-forward="false" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bordes.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/estilos/bordes.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EO.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/enlaces/EO.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -38,6 +54,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -47,11 +64,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/enlaces/japon.html" />
         <option value="$PROJECT_DIR$/enlaces/EU.html" />
         <option value="$PROJECT_DIR$/enlaces/MO.html" />
         <option value="$PROJECT_DIR$/enlaces/EO.html" />
+        <option value="$PROJECT_DIR$/estilos/bordes.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -61,11 +79,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -97,6 +114,11 @@
               <item name="practica18" type="462c0819:PsiDirectoryNode" />
               <item name="enlaces" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="practica18" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practica18" type="462c0819:PsiDirectoryNode" />
+              <item name="imagen" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -105,9 +127,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/imagen/mundo2.jpg" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -136,7 +159,7 @@
       <updated>1517312238580</updated>
       <workItem from="1517312239849" duration="714000" />
       <workItem from="1517312964968" duration="4893000" />
-      <workItem from="1517333380453" duration="2515000" />
+      <workItem from="1517333380453" duration="12408000" />
     </task>
     <task id="LOCAL-00001" summary="primer commit">
       <created>1517313175731</created>
@@ -152,17 +175,24 @@
       <option name="project" value="LOCAL" />
       <updated>1517316366263</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="tercer commit">
+      <created>1517335997370</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1517335997370</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8122000" />
+    <option name="totallyTimeSpent" value="18015000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-7" y="0" width="697" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19765739" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0969163" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5021075" order="7" side_tool="true" content_ui="tabs" />
@@ -209,7 +239,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="primer commit" />
     <MESSAGE value="segundo commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="segundo commit" />
+    <MESSAGE value="tercer commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="tercer commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -228,14 +259,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/enlaces/EO.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="40" lean-forward="false" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -264,10 +287,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/imagen/mundo2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/enlaces/EO.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/estilos/bordes.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="133" column="7" lean-forward="false" selection-start-line="133" selection-start-column="7" selection-end-line="133" selection-end-column="7" />
+        <state relative-caret-position="136">
+          <caret line="8" column="61" lean-forward="false" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
           <folding />
         </state>
       </provider>

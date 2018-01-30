@@ -3,27 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>ocio</title>
-    <style>
-        body{
-            front-side:3em
-        }
-        TABLE{
-            width:50%;
-            border-collapse: COLLAPSE;
-            border:2px solid black;
-        }
-        td>table{
-            width:100%;
-            border: hidden;
-        }
-        td{
-            border: 2px solid black;
-        }
-    </style>
+    <link rel="stylesheet" href="/practica18/estilos/bordes.css" type="text/css" media="screen">
 </head>
 <body>
-<form action="http://jorgesanchez.net/servicios/practica17.php" method="get">
-<table>
+<form action="http://jorgesanchez.net/servicios/ver-datos.php" method="post">
+<table class="punk">
     <tr>
         <th colspan="3"><h1>Formulario de Alta</h1></th>
     </tr>
@@ -117,8 +101,8 @@
     </tr>
     <tr>
         <td colspan="3">
-            Escribe ahora los comentarios que estimes oportunos: <br>
-            <textarea name="texto" id="texto" cols="100" rows="15"></textarea>
+            <label for="Escribe ahora los comentarios que estimes oportunos:">Escribe ahora los comentarios que estimes oportunos:</label><br>
+            <textarea name="texto" id="Escribe ahora los comentarios que estimes oportunos:" cols="100" rows="15"></textarea>
         </td>
     </tr>
     <tr>
@@ -131,12 +115,24 @@
 </form>
 
 <h2>Ir a zonas de MundoOcio.com</h2>
-<table_2>
+<table class="table02" >
     <tr>
-        <td>
-            <img src="imagen/mundo2.jpg" alt="">
+        <td colspan="4">
+            <map name="mapa_mundo" >
+                <area shape="rect" coords="0,0,150,149" href="/practica18/enlaces/EO.html"/>
+                <area shape="rect" coords="0,0,300,149" href="/practica18/enlaces/EU.html"/>
+                <area shape="rect" coords="0,0,450,149" href="/practica18/enlaces/MO.html"/>
+                <area shape="rect" coords="0,0,598,149" href="/practica18/enlaces/japon.html"/>
+                <img src="imagen/mundo2.jpg" usemap="#mapa_mundo" alt="mapa_mundo">
+            </map>
         </td>
     </tr>
-</table_2>
+    <tr>
+        <td><a href="/practica18/enlaces/EO.html">Europa Oriental</a></td>
+        <td><a href="/practica18/enlaces/EU.html">Europa Del Norte</a></td>
+        <td><a href="/practica18/enlaces/MO.html">Mediterraneo Oriental</a></td>
+        <td><a href="/practica18/enlaces/japon.html">Mar de Japon</a></td>
+    </tr>
+</table>
 </body>
 </html>
